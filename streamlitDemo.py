@@ -5,7 +5,8 @@ from mail.email_fetcher import EmailFetcher
 from mail.email_sender import EmailSender  # <-- importem la nova classe
 from email.utils import parseaddr
 import html
-
+if "OPENAI_API_KEY" not in st.secrets:
+    st.warning("⚠️ OPENAI_API_KEY not found in secrets!")
 # Page setup
 st.set_page_config(page_title="📧 SH Concept Formació - Email Assistant", layout="wide")
 
