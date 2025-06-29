@@ -22,9 +22,9 @@ def save_answered_emails(answered_list):
         json.dump(answered_list, f)
 
 # Page setup
-st.set_page_config(page_title="📧 SH Concept Formació - Email Assistant", layout="wide")
+st.set_page_config(page_title="📧  Email Assistant", layout="wide")
 
-st.title("📥 Assistència per correus del centre esportiu SH Concept Formació")
+st.title("📥 Assistència per correus del centre esportiu")
 
 # --- Load answered emails from file if not in session_state ---
 if "answered_emails" not in st.session_state:
