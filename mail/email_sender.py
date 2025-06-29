@@ -3,7 +3,7 @@ from email.message import EmailMessage
 #import os
 #from dotenv import load_dotenv
 import streamlit as st
-
+st.write("🔐 Secrets loaded:", list(st.secrets.keys()))
 class EmailSender:
     """
     Secure email sender for sending emails via a Gmail account using SMTP.
