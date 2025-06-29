@@ -4,6 +4,12 @@ from email.header import decode_header
 import streamlit as st
 #import os
 #from dotenv import load_dotenv
+import hashlib
+
+def get_email_id(subject, sender):
+    """Genera un hash únic per identificar cada correu de manera persistent."""
+    raw = (subject + sender).encode()
+    return hashlib.sha256(raw).hexdigest()
 
 class EmailFetcher:
     """
@@ -64,7 +70,8 @@ class EmailFetcher:
                     self.emails.append({
                         "subject": subject,
                         "sender": sender,
-                        "content": body
+                        "content": body,
+                        "id": get_email_id(subject, sender)
                     })
 
         return self.emails
