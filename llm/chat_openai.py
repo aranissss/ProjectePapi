@@ -7,7 +7,7 @@ import streamlit as st
 if "OPENAI_API_KEY" not in st.secrets:
     st.warning("⚠️ OPENAI_API_KEY not found in secrets!")
 else:
-   st.write("Loaded keys:", list(st.secrets.keys()))
+   st.write("Loaded keys:", st.secrets['OPENAI_API_KEY'])
 class LLMClient:
     def __init__(self, stream: bool = False):
         st.write("🔐 Secrets loaded:", list(st.secrets.keys()))
