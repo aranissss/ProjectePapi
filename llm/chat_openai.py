@@ -4,13 +4,8 @@ import streamlit as st
 #from dotenv import load_dotenv, find_dotenv
 
 #load_dotenv(find_dotenv())
-if "OPENAI_API_KEY" not in st.secrets:
-    st.warning("⚠️ OPENAI_API_KEY not found in secrets!")
-else:
-   st.write("Loaded keys inside llm:", st.secrets['OPENAI_API_KEY'])
 class LLMClient:
     def __init__(self, stream: bool = False):
-        st.write("we are inside init of llm:", st.secrets['OPENAI_API_KEY'])
         self.__llm = ChatOpenAI(
             model="gpt-3.5-turbo",
             api_key= st.secrets['OPENAI_API_KEY'],
