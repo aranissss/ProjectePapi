@@ -7,6 +7,7 @@ import streamlit as st
 st.write("🔐 Secrets loaded:", list(st.secrets.keys()))
 class LLMClient:
     def __init__(self, stream: bool = False):
+        st.write("🔐 Secrets loaded:", list(st.secrets.keys()))
         self.__llm = ChatOpenAI(
             model="gpt-3.5-turbo",
             api_key=st.secrets['OPENAI_API_KEY'],
