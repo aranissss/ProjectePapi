@@ -24,7 +24,7 @@ def save_answered_emails(answered_list):
 # Page setup
 st.set_page_config(page_title="📧  Email Assistant", layout="wide")
 
-st.title("📥 Assistència per correus del centre esportiu")
+st.title("📥 Assistència per correus del centre de formació")
 
 # --- Load answered emails from file if not in session_state ---
 if "answered_emails" not in st.session_state:
