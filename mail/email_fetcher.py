@@ -1,18 +1,21 @@
 import imaplib
 import email
 from email.header import decode_header
-import os
-from dotenv import load_dotenv
+import streamlit as st
+#import os
+#from dotenv import load_dotenv
 
 class EmailFetcher:
     """
     Secure email fetcher for reading emails from a Gmail inbox using IMAP.
     """
     def __init__(self):
-        load_dotenv()
-        self.imap_server = "imap.gmail.com"
-        self.username = os.getenv("EMAIL_ADDRESS")
-        self.password = os.getenv("EMAIL_PASSWORD")
+        #load_dotenv()
+        self.imap_server = "imap.gmail.com"        
+        self.username = st.secrets("EMAIL_ADDRESS")
+        self.password = st.secrets("EMAIL_PASSWORD")
+        #self.username = os.getenv("EMAIL_ADDRESS")
+        #self.password = os.getenv("EMAIL_PASSWORD")
         self.mail = None
         self.emails= []
 
