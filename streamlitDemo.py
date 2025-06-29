@@ -11,10 +11,10 @@ if "OPENAI_API_KEY" not in st.secrets:
 st.set_page_config(page_title="📧 SH Concept Formació - Email Assistant", layout="wide")
 
 st.title("📥 Assistència per correus del centre esportiu SH Concept Formació")
-
+"""
 # --- Session State Setup ---
 if "assistant" not in st.session_state:
-    llm_agent = LLMClient(stream=False)
+   llm_agent = LLMClient(stream=False)
     st.session_state["assistant"] = Assistant(llm_agent=llm_agent.getClient())
 
 if "emails" not in st.session_state:
@@ -148,3 +148,4 @@ else:
         if st.button("➡️ Següent") and st.session_state["email_index"] < len(emails) - 1:
             st.session_state["email_index"] += 1
             st.rerun()
+"""
