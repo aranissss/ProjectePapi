@@ -12,8 +12,8 @@ class EmailFetcher:
     def __init__(self):
         #load_dotenv()
         self.imap_server = "imap.gmail.com"        
-        self.username = st.secrets("EMAIL_ADDRESS")
-        self.password = st.secrets("EMAIL_PASSWORD")
+        self.username = st.secrets["EMAIL_ADDRESS"]
+        self.password = st.secrets["EMAIL_PASSWORD"]
         #self.username = os.getenv("EMAIL_ADDRESS")
         #self.password = os.getenv("EMAIL_PASSWORD")
         self.mail = None

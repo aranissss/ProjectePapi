@@ -12,8 +12,8 @@ class EmailSender:
         #load_dotenv()
         self.smtp_server = "smtp.gmail.com"
         self.smtp_port = 587        
-        self.username = st.secrets("EMAIL_ADDRESS")
-        self.password = st.secrets("EMAIL_PASSWORD")
+        self.username = st.secrets["EMAIL_ADDRESS"]
+        self.password = st.secrets["EMAIL_PASSWORD"]
         #self.username = os.getenv("EMAIL_ADDRESS")
         #self.password = os.getenv("EMAIL_PASSWORD")
         self.server = None
