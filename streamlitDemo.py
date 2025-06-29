@@ -7,4 +7,6 @@ from email.utils import parseaddr
 import html
 if "OPENAI_API_KEY" not in st.secrets:
     st.warning("⚠️ OPENAI_API_KEY not found in secrets!")
+else:
+   st.write("Loaded keys:", list(st.secrets.keys()))
 
