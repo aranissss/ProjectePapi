@@ -31,7 +31,7 @@ Per a cada curs, la informació es divideix en:
 - Inici de curs: 25 de juny (curs de matins d’estiu)
 - Lloc: Palafolls
 - Durada: 290h de formació + 80h de pràctiques no laborals
-- Link de preinscripció: https://docs.google.com/forms/d/e/1FAIpQLScvMaXC6cmGEtlzjO6SUln8B_Y62UmP84B-YlCZmJFJHF6K-A/viewform
+- Més informació del curs: https://www.shcformacio.com/curs-socorrisme-en-instal%c2%b7lacions-aquatiques/
 
 Què aprendràs?
 - UC0269: Natació amb eficàcia i seguretat
@@ -70,7 +70,7 @@ Sortides professionals:
 - Inici de curs: 25 de juny (curs de matins d’estiu)
 - Lloc: Palafrugell
 - Durada: 340 hores de formació (teòrico-pràctica) +  80 hores de pràctiques no laborals 
-- Link de preinscripció: https://docs.google.com/forms/d/e/1FAIpQLScvMaXC6cmGEtlzjO6SUln8B_Y62UmP84B-YlCZmJFJHF6K-A/viewform
+- Més informació del curs: https://www.shcformacio.com/curs-socorrisme-en-espais-aquatics-naturals/
 
 Què aprendràs?
 – UC0269:Executar tècniques específiques de natació amb eficàcia i seguretat.
@@ -115,7 +115,7 @@ Si no es compleixen els requisits acadèmics, cal superar unes proves d’avalua
 - Inici de curs: 1 de juliol (matins)
 - Lloc: Girona
 - Durada: 150 hores de formació (teòrico-pràctica) + 160 hores de pràctiques no laborals
-- Link de preinscripció: https://docs.google.com/forms/d/e/1FAIpQLScvMaXC6cmGEtlzjO6SUln8B_Y62UmP84B-YlCZmJFJHF6K-A/viewform
+- Més informació del curs: https://www.shcformacio.com/curs-dinamitzacio-dactivitats-de-lleure-educatiu-infantil-i-juvenil/
 
 Què aprendràs?
 – UC1866: Organitzar, dinamitzar i avaluar activitats en el lleure educatiu infantil i juvenil.
