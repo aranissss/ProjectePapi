@@ -2,7 +2,7 @@ import smtplib
 from email.message import EmailMessage
 #import os
 #from dotenv import load_dotenv
-from streamlit import st 
+import streamlit as st
 
 class EmailSender:
     """
