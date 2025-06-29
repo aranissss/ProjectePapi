@@ -4,7 +4,7 @@ import streamlit as st
 #from dotenv import load_dotenv, find_dotenv
 
 #load_dotenv(find_dotenv())
-
+st.write("🔐 Secrets loaded:", list(st.secrets.keys()))
 class LLMClient:
     def __init__(self, stream: bool = False):
         self.__llm = ChatOpenAI(
