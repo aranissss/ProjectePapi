@@ -106,11 +106,6 @@ else:
         </div>
         """, unsafe_allow_html=True)
 
-        """if st.button("❌ Ignora aquest correu", key=f"ignore_{id}"):
-            if id not in st.session_state["answered_emails"]:
-                st.session_state["answered_emails"].append(id)
-                save_answered_emails(st.session_state["answered_emails"])
-            st.rerun()"""
 
         content_text = content
 
