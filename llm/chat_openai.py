@@ -10,6 +10,7 @@ else:
    st.write("Loaded keys inside llm:", st.secrets['OPENAI_API_KEY'])
 class LLMClient:
     def __init__(self, stream: bool = False):
+        st.write("we are inside init of llm:", st.secrets['OPENAI_API_KEY'])
         self.__llm = ChatOpenAI(
             model="gpt-3.5-turbo",
             api_key= st.secrets['OPENAI_API_KEY'],
